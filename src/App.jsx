@@ -17,8 +17,35 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
   speedAsDuration: true,
 });
 
+
+
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
+  useEffect(() => {
+    const links = document.querySelectorAll(".page-scroll");
+
+    links.forEach(link => {
+      link.addEventListener("click", e => {
+        e.preventDefault();
+        const targetId = link.getAttribute("href").substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 70, // 70px offset for navbar height
+            behavior: "smooth"
+          });
+        }
+      });
+    });
+
+    return () => {
+      links.forEach(link => {
+        link.removeEventListener("click", () => {});
+      });
+    };
+  }, []);
+
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
@@ -27,7 +54,7 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
+      {/* <Features data={landingPageData.Features} /> */}
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery} />

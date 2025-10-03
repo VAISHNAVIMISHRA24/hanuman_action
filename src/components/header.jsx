@@ -1,9 +1,10 @@
 import React from "react";
-
+import CarouselComponent from "./cousal";
 export const Header = (props) => {
   return (
     <header id="header">
-      <div className="intro">
+      <CarouselComponent/>
+      {/* <div className="intro">
         <div className="overlay">
           <div className="container">
             <div className="row">
@@ -23,7 +24,7 @@ export const Header = (props) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </header>
   );
 };

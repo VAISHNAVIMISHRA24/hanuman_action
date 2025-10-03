@@ -4,7 +4,8 @@
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph1": "At Hanuman Action & Arts, we believe in the power of creativity to inspire, educate, and transform communities. Founded with the vision of blending art, technology, and social impact, we produce dynamic visual content that connects with audiences and drives change.",
+    "paragraph2": "We work with NGOs, brands, and creative artists to bring stories to life through documentaries, films, 3D animation, VFX, reels, and sports event shoots. Whether it’s showcasing your impact, capturing a special event, or creating cutting-edge visuals, our team combines professionalism with cultural sensitivity and fresh ideas.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -22,7 +23,9 @@
     {
       "title": "Project Title",
       "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "smallImage": "img/portfolio/01-small.jpg",
+      "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
+
     },
     {
       "title": "Project Title",
@@ -68,33 +71,38 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Documentaries for NGOs",
+      "text": "Turning your impact into powerful visual stories"
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Sports Event Shoots",
+      "text": " Capturing action and energy with professional quality"
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "VFX & 3D Animation",
+      "text": "Engaging visuals for films, ads, and social campaigns"
+    },
+     {
+      "icon": "fa fa-cloud-download",
+      "name": "Reel Creation & Short Content",
+      "text": "Fast, creative storytelling for social media"
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Music Production & Folk Arts",
+      "text": " Reviving traditions with a modern touch"
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": " Action & Martial Arts Training",
+      "text": "Promoting discipline, confidence, and fitness among youth"
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Cultural & Social Projects",
+      "text": "Bridging creativity with community development"
     }
   ],
   "Testimonials": [
