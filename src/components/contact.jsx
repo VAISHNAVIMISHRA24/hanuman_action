@@ -27,8 +27,8 @@ export const Contact = (props) => {
     // console.log(name, email, message);
 
     {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    const res = await axios.post(requestedUrl + "/contactus", contact)
-    console.log(res)
+    // const res = await axios.post(requestedUrl + "/contactus", contact)
+    // console.log(res)
     emailjs
       .sendForm("service_r9ezjur", "template_nijlmry", e.target, "rHXJXHtx8kSf5a9b6")
       .then(
