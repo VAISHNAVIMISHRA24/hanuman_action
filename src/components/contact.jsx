@@ -232,13 +232,14 @@ export const Contact = (props) => {
       </div>
     </div>
 
-      <div id="footer">
-        <div className="container text-center">
-          <p>
-            &copy; 2025 Hanuman Art. Design by{" "}
-          </p>
-        </div>
-      </div>
+     <div id="footer" style={{ background: "black", color: "white", padding: "10px 0" }}>
+  <div className="container text-center">
+    <p>
+      &copy; {new Date().getFullYear()} <strong>Hanuman Action Art</strong>. All rights reserved.  
+      Developed by  <strong>Vaishnavi Mishra</strong>.
+    </p>
+  </div>
+</div>
     </>
 
   );
