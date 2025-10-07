@@ -5,13 +5,13 @@
       <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="3000">
-            <img src="img/DSC06119.jpg" className="d-block w-100 h-60 img-responsive" alt="Slide 3" />
+            <img src="img/DSC06119.jpg" className="d-block w-100  img-fluid" alt="Slide 3" />
           </div>
           <div className="carousel-item" data-bs-interval="3000">
-            <img src="img/adarshwaah-13-08-2025-0017.jpg" className="d-block w-100  img-responsive" alt="Slide 2" />
+            <img src="img/adarshwaah-13-08-2025-0017.jpg" className="d-block w-100  img-fluid" alt="Slide 2" />
           </div>
           <div className="carousel-item" data-bs-interval="4000">
-            <img src="img/front1.webp" className="d-block w-100 h-60 img-responsive" alt="Slide 1" />
+            <img src="img/front1.webp" className="d-block w-100  img-fluid" alt="Slide 1" />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
