@@ -1,5 +1,6 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
+// import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import React from "react";
 import { requestedUrl } from "../utils";
 import axios from "axios";
@@ -12,12 +13,48 @@ const initialState = {
 };
 export const Contact = (props) => {
   // const [{ name, email, message }, setState] = useState(initialState);
-  const [contact, setContact] = useState(initialState);
+ const [{ name, email, message }, setContact] = useState(initialState);
 
+ const [errors, setErrors] = useState({ name: "", email: "", message: "" });
+
+  // ✅ Validation Functions
+  const validateName = (value) => {
+    if (!value.trim()) return "Name is required.";
+    if (value.length < 3) return "Name must be at least 3 characters.";
+    return "";
+  };
+
+  const validateEmail = (value) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!value.trim()) return "Email is required.";
+    if (!emailRegex.test(value)) return "Enter a valid email address.";
+    return "";
+  };
+
+  const validateMessage = (value) => {
+    if (!value.trim()) return "Message cannot be empty.";
+    if (value.length < 10) return "Message should be at least 10 characters.";
+    return "";
+  };
+ const templateParams={
+  name:name,
+  email:email,
+  message:message,
+  to_name:"Vaishnavi Mishra",
+  to_email:"mvaishnavi551@gmail.com"
+ }
+
+ 
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setContact((prevState) => ({ ...prevState, [name]: value }));
+    let error = "";
+    if (name === "name") error = validateName(value);
+    if (name === "email") error = validateEmail(value);
+    if (name === "message") error = validateMessage(value);
+
+    setErrors((prev) => ({ ...prev, [name]: error }));
   };
   // const clearState = () => setState({ ...initialState });
 
@@ -29,8 +66,22 @@ export const Contact = (props) => {
     {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
     // const res = await axios.post(requestedUrl + "/contactus", contact)
     // console.log(res)
+     const nameError = validateName(name);
+    const emailError = validateEmail(email);
+    const messageError = validateMessage(message);
+
+    if (nameError || emailError || messageError) {
+      setErrors({ name: nameError, email: emailError, message: messageError });
+      Swal.fire({
+        title: "Validation Error",
+        text: "Please correct the highlighted fields.",
+        icon: "warning",
+        confirmButtonText: "OK",
+      });
+      return;
+    }
     emailjs
-      .sendForm("service_r9ezjur", "template_nijlmry", e.target, "rHXJXHtx8kSf5a9b6")
+      .send("service_r9ezjur", "template_nijlmry", templateParams, "rHXJXHtx8kSf5a9b6")
       .then(
         (result) => {
           Swal.fire({
@@ -69,33 +120,38 @@ export const Contact = (props) => {
             <form name="sentMessage" validate onSubmit={handleSubmit}>
               <div className="row">
                 <div className="col-md-6">
-                  <div className="form-group">
+                  <div className="form-group mb-3" >
                     <input
                       type="text"
                       id="name"
                       name="name"
                       className="form-control"
                       placeholder="Name"
-                      value={contact.name}
+                      value={name}
                       required
                       onChange={handleChange}
                     />
-                    <p className="help-block text-danger"></p>
+                  {errors.name && (
+                        <p className="help-block text-danger">{errors.name}</p>
+                      )}
                   </div>
+                  
                 </div>
                 <div className="col-md-6">
-                  <div className="form-group">
+                  <div className="form-group mb-3">
                     <input
                       type="email"
                       id="email"
                       name="email"
                       className="form-control"
                       placeholder="Email"
-                      value={contact.email}
+                      value={email}
                       required
                       onChange={handleChange}
                     />
-                    <p className="help-block text-danger"></p>
+                    {errors.email && (
+                        <p className="help-block text-danger">{errors.email}</p>
+                      )}
                   </div>
                 </div>
               </div>
@@ -106,11 +162,13 @@ export const Contact = (props) => {
                   className="form-control"
                   rows="4"
                   placeholder="Message"
-                  value={contact.message}
+                  value={message}
                   required
                   onChange={handleChange}
                 ></textarea>
-                <p className="help-block text-danger"></p>
+               {errors.message && (
+                    <p className="help-block text-danger">{errors.message}</p>
+                  )}
               </div>
               <div id="success"></div>
               <button type="submit" className="btn btn-custom btn-lg">
