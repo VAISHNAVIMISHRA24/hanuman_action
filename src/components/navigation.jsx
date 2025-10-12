@@ -1,7 +1,7 @@
 import React from "react";
 
 const mystyle = {
-      color:"black",
+      color:"white",
       // padding: "10px",
       // #d99348ff
 

@@ -21,51 +21,76 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "Documentry Promo",
+      "description":"hiiiiii",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg",
       "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
 
     },
     {
-      "title": "Project Title",
+      "title": "Cricket Shoot",
+       "description":"hiiiiii",
       "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "smallImage": "img/portfolio/02-small.jpg",
+       "video": "https://drive.google.com/drive/folders/1eQgJ7WCApWwhxmgV8Y7TCkZFANfxX6Mk/preview"
+
     },
     {
-      "title": "Project Title",
+      "title": "Product Shoot",
+       "description":"hiiiiii",
       "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "smallImage": "img/portfolio/03-small.jpg",
+       "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
+
     },
     {
-      "title": "Project Title",
+      "title": "Fashion Shoot",
+       "description":"hiiiiii",
       "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "smallImage": "img/portfolio/04-small.jpg",
+       "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
+
     },
     {
-      "title": "Project Title",
+      "title": "Reels",
+       "description":"hiiiiii",
       "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "smallImage": "img/portfolio/05-small.jpg",
+       "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
+
     },
     {
       "title": "Project Title",
+       "description":"hiiiiii",
       "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "smallImage": "img/portfolio/06-small.jpg",
+       "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
+
     },
     {
       "title": "Project Title",
+       "description":"hiiiiii",
       "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "smallImage": "img/portfolio/07-small.jpg",
+       "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
+
     },
     {
       "title": "Project Title",
+       "description":"hiiiiii",
       "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "smallImage": "img/portfolio/08-small.jpg",
+       "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
+
     },
     {
       "title": "Project Title",
+       "description":"hiiiiii",
       "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "smallImage": "img/portfolio/09-small.jpg",
+       "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
+
     }
   ],
   "Services": [

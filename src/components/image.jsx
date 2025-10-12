@@ -1,14 +1,19 @@
 import React, { useState } from "react";
 
-export const Image = ({ title, largeImage, smallImage, video }) => {
+export const Image = ({ title, largeImage, smallImage, video, description }) => {
   const [showVideo, setShowVideo] = useState(false);
 
   const handleClose = () => setShowVideo(false);
 
   return (
-    <div className="portfolio-item">
+    <div
+      className="portfolio-item"
+      style={{
+        transition: "transform 0.3s ease, box-shadow 0.3s ease",
+      }}
+    >
       {!video ? (
-        // Regular image logic
+        // For normal images
         <div className="hover-bg">
           <a href={largeImage} title={title} data-lightbox-gallery="gallery1">
             <div className="hover-text">
@@ -19,31 +24,68 @@ export const Image = ({ title, largeImage, smallImage, video }) => {
         </div>
       ) : (
         <>
-          {/* Thumbnail with Play Button */}
+          {/* Video Thumbnail */}
           <div
-            style={{ position: "relative", cursor: "pointer" }}
+            style={{
+              position: "relative",
+              cursor: "pointer",
+              borderRadius: "20px",
+              overflow: "hidden",
+              transition: "transform 0.4s ease, box-shadow 0.4s ease",
+            }}
+            className="video-card"
             onClick={() => setShowVideo(true)}
           >
+            {/* Thumbnail */}
             <img
               src={smallImage}
               alt={title}
               className="img-responsive"
-              style={{ width: "100%" }}
+              style={{
+                width: "100%",
+                borderRadius: "20px",
+                transition: "transform 0.5s ease",
+              }}
             />
+
+            {/* Overlay Play Button */}
             <div
+              className="play-overlay"
               style={{
                 position: "absolute",
                 top: "50%",
                 left: "50%",
                 transform: "translate(-50%, -50%)",
-                fontSize: "50px",
-                color: "#fff",
-                background: "rgba(0,0,0,0.5)",
+                background: "rgba(0, 0, 0, 0.6)",
                 borderRadius: "50%",
-                padding: "15px"
+                padding: "20px",
+                transition: "all 0.3s ease",
               }}
             >
-              ▶
+              <span
+                style={{
+                  fontSize: "30px",
+                  color: "white",
+                }}
+              >
+                ▶
+              </span>
+            </div>
+
+            {/* Title + Description */}
+            <div
+              style={{
+                background: "#f8f6f3",
+                padding: "20px",
+                borderRadius: "0 0 20px 20px",
+                textAlign: "center",
+                transition: "background 0.4s ease",
+              }}
+            >
+              <h3 style={{ color: "#222", fontWeight: "600" }}>{title}</h3>
+              <p style={{ color: "#666", fontSize: "14px", marginTop: "5px" }}>
+                {description}
+              </p>
             </div>
           </div>
 
@@ -60,10 +102,16 @@ export const Image = ({ title, largeImage, smallImage, video }) => {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                zIndex: 9999
+                zIndex: 9999,
               }}
             >
-              <div style={{ position: "relative", width: "80%", maxWidth: "800px" }}>
+              <div
+                style={{
+                  position: "relative",
+                  width: "80%",
+                  maxWidth: "800px",
+                }}
+              >
                 <iframe
                   src={video}
                   width="100%"
@@ -82,7 +130,7 @@ export const Image = ({ title, largeImage, smallImage, video }) => {
                     color: "#fff",
                     background: "transparent",
                     border: "none",
-                    cursor: "pointer"
+                    cursor: "pointer",
                   }}
                 >
                   ✖

@@ -350,13 +350,33 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
+
+.video-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.video-card:hover img {
+  transform: scale(1.05);
+}
+
+.video-card:hover .play-overlay {
+  background: rgba(0, 0, 0, 0.8);
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.video-card:hover h3 {
+  color: #e18557; /* highlight color */
+}
+
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
 }
 .portfolio-item {
-  margin: 1px -15px 0 -14px;
-  padding: 0;
+  margin: 1px -15px 0 -14px;;
+  border-radius: 30px;
+  /* background-color: #f7f3ee; */
 }
 .portfolio-item .hover-bg {
   overflow: hidden;

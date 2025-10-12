@@ -6,7 +6,7 @@ export const About = (props) => {
           {/* Left Image */}
           <div className="col-12 col-md-6 mb-4 mb-md-0 text-center">
             <img
-              src="img/about.jpg"
+              src="img/front1.webp"
               className="img-fluid w-100 rounded shadow-sm"
               alt="About Hanuman Action Art"
               style={{ maxHeight: "500px", objectFit: "cover" }}
