@@ -351,6 +351,97 @@ header .intro-text {
   margin-bottom: 40px;
 }
 
+/* Section Background */
+.about-section {
+  background: linear-gradient(135deg, #fffaf0 0%, #fff 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative gradient circles */
+.about-section::before,
+.about-section::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.about-section::before {
+  top: -100px;
+  left: -100px;
+  width: 300px;
+  height: 300px;
+  background: #ffb84d;
+}
+
+.about-section::after {
+  bottom: -100px;
+  right: -100px;
+  width: 300px;
+  height: 300px;
+  background: #ffd480;
+}
+
+/* Image Hover Zoom */
+.image-wrapper {
+  overflow: hidden;
+  border-radius: 15px;
+  transition: transform 0.5s ease;
+}
+
+.image-wrapper img {
+  transition: transform 0.8s ease;
+}
+
+.image-wrapper:hover img {
+  transform: scale(1.05);
+}
+
+/* Text Styling */
+.about-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  position: relative;
+}
+
+.about-text h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ff7b00;
+  margin-top: 8px;
+  border-radius: 2px;
+}
+
+/* Paragraphs */
+.about-text p {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+/* Button Styling */
+.btn-custom {
+  background: #ff7b00;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btn-custom:hover {
+  background: #e56b00;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(255, 123, 0, 0.3);
+}
+
 .video-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
@@ -621,6 +712,6 @@ label {
 
 @media (max-width: 768px) {
   #about img {
-    margin: 50px 0;
+    margin: 10px 0;
   }
 }
