@@ -10,6 +10,7 @@
     "axios": "^1.11.0",
     "emailjs-com": "^2.6.4",
     "framer-motion": "^4.1.17",
+    "lucide-react": "^0.546.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "^5.0.1",

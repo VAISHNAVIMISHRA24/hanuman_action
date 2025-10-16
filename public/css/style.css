@@ -350,6 +350,98 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
+.team-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Image section */
+.team-img-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px 16px 0 0;
+}
+
+.team-img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.team-card:hover .team-img {
+  transform: scale(1.1);
+}
+
+/* Overlay appears on hover */
+.team-overlay {
+  position: absolute;
+  inset: 0;
+  /* background: linear-gradient(to top right, rgba(255, 136, 0, 0.85), rgba(255, 94, 0, 0.85)); */
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.4s ease;
+}
+
+.team-card:hover .team-overlay {
+  opacity: 1;
+}
+
+/* Social icons inside overlay */
+.social-icons a {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 0 8px;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  transition: background 0.3s ease;
+}
+
+.social-icons a:hover {
+  background: #fff;
+  color: #ff7b00;
+}
+
+/* Text section */
+.team-caption {
+  padding: 15px 10px 25px;
+  transition: color 0.3s ease;
+}
+
+.team-caption h4 {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #222;
+  transition: color 0.3s ease;
+}
+
+.team-caption p {
+  color: #777;
+  font-size: 0.95rem;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+/* Change text color when hovering over card */
+.team-card:hover .team-caption h4 {
+  color: #ff7b00;
+}
+
+/* .team-card:hover .team-caption p {
+  color: #ff9f3c;
+} */
 
 /* Section Background */
 .about-section {
@@ -714,4 +806,133 @@ label {
   #about img {
     margin: 10px 0;
   }
+}
+.navbar-nav .nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffe8c2 !important;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+.client-section {
+  background-color: #f8f9fa;
+}
+
+/* .section-title {
+  color: #ff7b00;
+  font-weight: 700;
+  letter-spacing: 1px;
+} */
+
+.review-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+  border: 1px solid transparent;
+}
+
+.review-card:hover {
+  transform: translateY(-8px);
+  border-color: #ff9b2f;
+  box-shadow: 0 8px 20px rgba(255, 123, 0, 0.2);
+}
+
+.avatar-wrapper {
+  position: relative;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid #ff9b2f;
+  object-fit: cover;
+}
+
+.star-badge {
+  position: absolute;
+  bottom: 0;
+  right: -5px;
+  background: #ff7b00;
+  color: white;
+  font-size: 0.8rem;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+}
+
+.rating {
+  font-size: 0.9rem;
+}
+
+.review-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+/* Collapsed = show only 3 lines */
+.review-text.collapsed {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* show 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Expanded = full text */
+.review-text.expanded {
+  -webkit-line-clamp: unset;
+  display: block;
+}
+
+.btn-review {
+  background: linear-gradient(90deg, #ff7b00, #ff9b2f);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  transition: all 0.3s ease;
+}
+
+.btn-review:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #ff9b2f, #ff7b00);
+}
+
+.btn-learn {
+  background: none;
+  border: none;
+  color: #ff7b00;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.btn-learn:hover {
+  color: #ff9b2f;
+  text-decoration: underline;
 }

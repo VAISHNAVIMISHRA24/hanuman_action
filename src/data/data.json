@@ -133,55 +133,71 @@
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Highly impressed with the work done. Services offered are highly professional.\"",
+      "name": "Prdan",
+      "rating":"5"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Hanuman Art is an excellent agency providing high-quality services in the field of development documentaries. The agency has skilled, qualified, and highly cooperative professionals who genuinely understand the client’s needs and translate them effectively into impactful documentaries. Their prior experience in the development sector enables them to grasp the context quickly and bring authenticity to their work. I am very happy with the services provided by Hanuman Art and wish the team continued success in their future endeavors.\"",
+      "name": "PRADAN Dhamtari team",
+      "rating":"5"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"We would like to extend our appreciation for your recent performance and contribution. Your team displayed great energy, coordination, and professionalism throughout the event. The audience truly enjoyed the performance, and it added significant value to our program.\"",
+      "name": "KABIR NAGAR KHEL SAMITI SOCIETY KABIR NAGAR RAIPUR ",
+      "rating":"5"
     },
     {
       "img": "img/testimonials/04.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "name": "Johnathan Doe",
+      "rating":"5"
     },
     {
       "img": "img/testimonials/05.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "name": "John Doe",
+      "rating":"5"
     },
     {
       "img": "img/testimonials/06.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "name": "Johnathan Doe",
+      "rating":"5"
     }
   ],
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Krishnakant Dwivedi",
+      "job": "Cinematographer",
+      "linkedin ":"fa fa-linkedin"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Shashikant Pandey",
+      "job": "Writer & Music Producer",
+      "linkedin ":"fa fa-linkedin"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Yogesh Sharma",
+      "job": "Video Editor & VFX / 3D Creator",
+      "linkedin ":"bi bi-linkedin"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Shubham Raj",
+      "job": "Graphic Designer",
+      "linkedin ":"bi bi-linkedin"
+    },  
+     {
+      "img": "img/team/04.jpg",
+      "name": "Adarsh sharma",
+      "job": "Cinematographer",
+      "linkedin ":"bi bi-linkedin"
     }
   ],
   "Contact": {

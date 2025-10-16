@@ -9,38 +9,64 @@ const mystyle = {
 
 export const Navigation = (props) => {
   return (
-   <nav id="menu" className="navbar navbar-expand-lg  sticky-top" style={{background:"#d38a3bff"}} >
-  <div className="container-fluid">
-    {/* <a className="navbar-brand" href="#">Navbar</a> */}
-    <img src="img/hanumanlogo.jpg" className="" style={{height:"60px", width:"70px"}} />
-    
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav
+  id="menu"
+  className="navbar navbar-expand-lg sticky-top shadow-sm"
+  style={{
+    background: "linear-gradient(90deg, #ff7b00, #ff9b2f)", // gradient orange
+  }}
+>
+  <div className="container-fluid px-4">
+    {/* Logo */}
+    <a className="navbar-brand d-flex align-items-center" href="#home">
+      <img
+        src="img/hanumanlogo.jpg"
+        alt="Logo"
+        style={{
+          height: "55px",
+          width: "55px",
+          borderRadius: "50%",
+          border: "2px solid white",
+          objectFit: "cover",
+          marginRight: "10px",
+        }}
+      />
+      <span className="fw-bold text-white fs-4">Hanuman</span>
+    </a>
+
+    {/* Toggler */}
+    <button
+      className="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+
+    {/* Links */}
+    <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <a className="nav-link active page-scroll" style={mystyle} href="#about">About</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link active page-scroll" style={mystyle} href="#services">Services</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link active page-scroll" style={mystyle} href="#portfolio">Portfolio</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link active page-scroll" style={mystyle} href="#testimonials">Welcome</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link active page-scroll" style={mystyle} href="#team">Team</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link active page-scroll" style={mystyle} href="#contact">Contact</a>
-        </li>
+        {["About", "Services", "Portfolio", "Welcome", "Team", "Contact"].map(
+          (item) => (
+            <li className="nav-item" key={item}>
+              <a
+                className="nav-link text-white px-3 fw-semibold"
+                href={`#${item.toLowerCase()}`}
+              >
+                {item}
+              </a>
+            </li>
+          )
+        )}
       </ul>
     </div>
   </div>
 </nav>
+
 
     // <nav id="menu" classNameName="navbar navbar-default navbar-fixed-top" style={{background:"green"}}>
     //   <div classNameName="container">
