@@ -21,7 +21,7 @@ export const Team = (props) => {
         <div className="row justify-content-center">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={i} className="col-md-3 col-sm-6 mb-4">
+                <div key={i} className="col-md-4 col-sm-6 mb-4">
                   <div className="team-card">
                     <div className="team-img-wrapper">
                       <img src={d.img} alt={d.name} className="team-img" />

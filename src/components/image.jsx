@@ -7,10 +7,10 @@ export const Image = ({ title, largeImage, smallImage, video, description }) => 
 
   return (
     <div
-      className="portfolio-item"
-      style={{
-        transition: "transform 0.3s ease, box-shadow 0.3s ease",
-      }}
+      // className="portfolio-item"
+      // // style={{
+      // //   transition: "transform 0.3s ease, box-shadow 0.3s ease",
+      // // }}
     >
       {!video ? (
         // For normal images
@@ -32,6 +32,7 @@ export const Image = ({ title, largeImage, smallImage, video, description }) => 
               borderRadius: "20px",
               overflow: "hidden",
               transition: "transform 0.4s ease, box-shadow 0.4s ease",
+              
             }}
             className="video-card"
             onClick={() => setShowVideo(true)}
@@ -74,16 +75,10 @@ export const Image = ({ title, largeImage, smallImage, video, description }) => 
 
             {/* Title + Description */}
             <div
-              style={{
-                background: "#f8f6f3",
-                padding: "20px",
-                borderRadius: "0 0 20px 20px",
-                textAlign: "center",
-                transition: "background 0.4s ease",
-              }}
+             className="gallary-caption"
             >
-              <h3 style={{ color: "#222", fontWeight: "600" }}>{title}</h3>
-              <p style={{ color: "#666", fontSize: "14px", marginTop: "5px" }}>
+              <h4>{title}</h4>
+              <p >
                 {description}
               </p>
             </div>
