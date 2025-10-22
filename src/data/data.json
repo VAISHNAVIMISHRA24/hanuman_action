@@ -153,7 +153,7 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
+      "img": "img/team/nikhil.jpg",
       "name": "Krishnakant Dwivedi",
       "job": "Cinematographer",
       "linkedin ":"fa fa-linkedin"
@@ -165,7 +165,7 @@
       "linkedin ":"fa fa-linkedin"
     },
     {
-      "img": "img/team/03.jpg",
+      "img": "img/team/yogesh.jpg",
       "name": "Yogesh Sharma",
       "job": "Video Editor & VFX / 3D Creator",
       "linkedin ":"bi bi-linkedin"
@@ -177,7 +177,7 @@
       "linkedin ":"bi bi-linkedin"
     },  
      {
-      "img": "img/team/04.jpg",
+      "img": "img/team/adarsh 2.jpg",
       "name": "Adarsh sharma",
       "job": "Cinematographer",
       "linkedin ":"bi bi-linkedin"
