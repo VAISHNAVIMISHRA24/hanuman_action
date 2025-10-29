@@ -213,7 +213,7 @@ export const Contact = (props) => {
             <ul>
               <li>
                 <a href={props.data ? props.data.facebook : "/"}>
-                  <i className="fa fa-facebook"></i>
+                  <i className="fa fa-instagram"></i>
                 </a>
               </li>
               <li>
@@ -236,7 +236,6 @@ export const Contact = (props) => {
   <div className="container text-center">
     <p>
       &copy; {new Date().getFullYear()} <strong>Hanuman Action Art</strong>. All rights reserved.  
-      Developed by  <strong>Vaishnavi Mishra</strong>.
     </p>
   </div>
 </div>

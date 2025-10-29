@@ -5,15 +5,19 @@ export const Image = ({ title, largeImage, smallImage, video, description }) => 
 
   const handleClose = () => setShowVideo(false);
 
+  // Convert YouTube Shorts or normal URLs to embed format
+  const getEmbedUrl = (url) => {
+    if (!url) return null;
+    const videoIdMatch = url.match(/(?:shorts\/|v=|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
+    const videoId = videoIdMatch ? videoIdMatch[1] : null;
+    return videoId ? `https://www.youtube.com/embed/${videoId}` : url;
+  };
+
+  const embedUrl = getEmbedUrl(video);
+
   return (
-    <div
-      // className="portfolio-item"
-      // // style={{
-      // //   transition: "transform 0.3s ease, box-shadow 0.3s ease",
-      // // }}
-    >
+    <div>
       {!video ? (
-        // For normal images
         <div className="hover-bg">
           <a href={largeImage} title={title} data-lightbox-gallery="gallery1">
             <div className="hover-text">
@@ -24,7 +28,6 @@ export const Image = ({ title, largeImage, smallImage, video, description }) => 
         </div>
       ) : (
         <>
-          {/* Video Thumbnail */}
           <div
             style={{
               position: "relative",
@@ -32,12 +35,10 @@ export const Image = ({ title, largeImage, smallImage, video, description }) => 
               borderRadius: "20px",
               overflow: "hidden",
               transition: "transform 0.4s ease, box-shadow 0.4s ease",
-              
             }}
             className="video-card"
             onClick={() => setShowVideo(true)}
           >
-            {/* Thumbnail */}
             <img
               src={smallImage}
               alt={title}
@@ -48,8 +49,6 @@ export const Image = ({ title, largeImage, smallImage, video, description }) => 
                 transition: "transform 0.5s ease",
               }}
             />
-
-            {/* Overlay Play Button */}
             <div
               className="play-overlay"
               style={{
@@ -73,18 +72,12 @@ export const Image = ({ title, largeImage, smallImage, video, description }) => 
               </span>
             </div>
 
-            {/* Title + Description */}
-            <div
-             className="gallary-caption"
-            >
+            <div className="gallary-caption">
               <h4>{title}</h4>
-              <p >
-                {description}
-              </p>
+              <p>{description}</p>
             </div>
           </div>
 
-          {/* Video Modal */}
           {showVideo && (
             <div
               style={{
@@ -108,10 +101,11 @@ export const Image = ({ title, largeImage, smallImage, video, description }) => 
                 }}
               >
                 <iframe
-                  src={video}
+                  src={embedUrl}
                   width="100%"
                   height="450"
-                  allow="autoplay"
+                  allowFullScreen 
+                  allow="autoplay; encrypted-media"
                   title={title}
                   style={{ border: "none" }}
                 ></iframe>

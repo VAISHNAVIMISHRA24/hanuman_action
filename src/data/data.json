@@ -38,10 +38,10 @@
     },
     {
       "title": "Product Shoot",
-       "description":"hiiiiii",
+       "description":"Cinematic Brand Film",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg",
-       "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
+       "video": "https://www.youtube.com/embed/nlbez2s5KEU?rel=0"
 
     },
     {
@@ -61,11 +61,11 @@
 
     },
     {
-      "title": "Project Title",
-       "description":"hiiiiii",
+      "title": "Tiranga",
+       "description":"Every Frame Tell a Story",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg",
-       "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
+       "video": "https://www.youtube.com/embed/_zSnKJcvUNo?rel=0"
 
     },
     {
@@ -185,11 +185,11 @@
   ],
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
+    "phone": "+91 7879410448, 83055 52182",
+    "email": "hanumanactionart@gmail.com",
+    "instagram": "https://www.instagram.com/hanumanactionart/?igsh=bDNqazVkc3dsNTgx#",
     "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "youtube": "https://www.youtube.com/@hanumanactionart"
   },
   "Features": [
     {
