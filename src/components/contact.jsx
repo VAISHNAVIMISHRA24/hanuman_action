@@ -53,16 +53,11 @@ export const Contact = (props) => {
 
     setErrors((prev) => ({ ...prev, [name]: error }));
   };
-  // const clearState = () => setState({ ...initialState });
+ 
 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // console.log(name, email, message);
-
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    // const res = await axios.post(requestedUrl + "/contactus", contact)
-    // console.log(res)
      const nameError = validateName(name);
     const emailError = validateEmail(email);
     const messageError = validateMessage(message);
