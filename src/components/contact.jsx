@@ -1,9 +1,6 @@
 import { useState } from "react";
 // import emailjs from "emailjs-com";
 import emailjs from "@emailjs/browser";
-import React from "react";
-import { requestedUrl } from "../utils";
-import axios from "axios";
 import Swal from "sweetalert2";
 
 const initialState = {

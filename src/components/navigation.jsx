@@ -1,11 +1,5 @@
 import React from "react";
 
-const mystyle = {
-      color:"white",
-      // padding: "10px",
-      // #d99348ff
-
-    };
 
 export const Navigation = (props) => {
   return (
