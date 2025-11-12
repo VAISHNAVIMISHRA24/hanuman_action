@@ -12,7 +12,6 @@ export const Team = ({ data }) => {
   return (
     <div id="team" className="py-5">
       <div className="container">
-        {/* Section Title */}
 
         <div className="text-center mb-5 ">
     <div className="section-title">
