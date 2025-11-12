@@ -21,106 +21,83 @@
   },
   "Gallery": [
     {
-      "title": "Documentry Promo",
-      "description":"hiiiiii",
+      "title": " NGO Documentary Trailer",
+      "description": "Soil, Livelihood & Women Empowerment",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg",
-      "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
-
+      "video": "https://www.youtube.com/embed/v=W7CairPnGpM?rel=0"
     },
     {
       "title": "Cricket Shoot",
-       "description":"hiiiiii",
+      "description": "The Grind Never Stops",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg",
-       "video": "https://drive.google.com/drive/folders/1eQgJ7WCApWwhxmgV8Y7TCkZFANfxX6Mk/preview"
-
+      "video": "https://www.youtube.com/shorts/kuVNT2r6rkY?rel=0"
     },
     {
       "title": "Product Shoot",
-       "description":"Cinematic Brand Film",
+      "description": "Cinematic Brand Film",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg",
-       "video": "https://www.youtube.com/embed/nlbez2s5KEU?rel=0"
-
+      "video": "https://www.youtube.com/embed/nlbez2s5KEU?rel=0"
     },
     {
-      "title": "Fashion Shoot",
-       "description":"hiiiiii",
+      "title": "Short Film",
+      "description": "Cinematic Bike Chase Scene",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg",
-       "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
-
+      "video": "https://www.youtube.com/shorts/9OlXURaqEcY?rel=0"
     },
     {
       "title": "Reels",
-       "description":"hiiiiii",
+      "description": "The Dot That Defines Beauty",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg",
-       "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
-
+      "video": "https://www.youtube.com/shorts/U8bzeDOYVQI?rel=0"
     },
     {
       "title": "Tiranga",
-       "description":"Every Frame Tell a Story",
+      "description": "Every Frame Tell a Story",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg",
-       "video": "https://www.youtube.com/embed/_zSnKJcvUNo?rel=0"
-
+      "video": "https://www.youtube.com/embed/_zSnKJcvUNo?rel=0"
     },
     {
-      "title": "Project Title",
-       "description":"hiiiiii",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg",
-       "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
-
-    },
-    {
-      "title": "Project Title",
-       "description":"hiiiiii",
+      "title": " Artist’s",
+      "description": "The Hands That Create Ganesha",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg",
-       "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
-
-    },
-    {
-      "title": "Project Title",
-       "description":"hiiiiii",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg",
-       "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
-
+      "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
+      "icon": "fa fa-file-video-o",
       "name": "Documentaries for NGOs",
       "text": "Turning your impact into powerful visual stories"
     },
     {
-      "icon": "fa fa-cart-arrow-down",
+      "icon": "fa fa-trophy",
       "name": "Sports Event Shoots",
       "text": " Capturing action and energy with professional quality"
     },
     {
-      "icon": "fa fa-cloud-download",
+      "icon": "fa fa-cubes",
       "name": "VFX & 3D Animation",
       "text": "Engaging visuals for films, ads, and social campaigns"
     },
-     {
-      "icon": "fa fa-cloud-download",
+    {
+      "icon": "fa fa-film",
       "name": "Reel Creation & Short Content",
       "text": "Fast, creative storytelling for social media"
     },
     {
-      "icon": "fa fa-language",
+      "icon": "fa fa-music",
       "name": "Music Production & Folk Arts",
       "text": " Reviving traditions with a modern touch"
     },
     {
-      "icon": "fa fa-plane",
+      "icon": "fa fa-users",
       "name": " Action & Martial Arts Training",
       "text": "Promoting discipline, confidence, and fitness among youth"
     },
@@ -135,52 +112,71 @@
       "img": "img/testimonials/01.jpg",
       "text": "\"Highly impressed with the work done. Services offered are highly professional.\"",
       "name": "Prdan",
-      "rating":"5"
+      "rating": "5"
     },
     {
       "img": "img/testimonials/02.jpg",
       "text": "\"Hanuman Art is an excellent agency providing high-quality services in the field of development documentaries. The agency has skilled, qualified, and highly cooperative professionals who genuinely understand the client’s needs and translate them effectively into impactful documentaries. Their prior experience in the development sector enables them to grasp the context quickly and bring authenticity to their work. I am very happy with the services provided by Hanuman Art and wish the team continued success in their future endeavors.\"",
       "name": "PRADAN Dhamtari team",
-      "rating":"5"
+      "rating": "5"
     },
     {
       "img": "img/testimonials/03.jpg",
       "text": "\"We would like to extend our appreciation for your recent performance and contribution. Your team displayed great energy, coordination, and professionalism throughout the event. The audience truly enjoyed the performance, and it added significant value to our program.\"",
       "name": "KABIR NAGAR KHEL SAMITI SOCIETY KABIR NAGAR RAIPUR ",
-      "rating":"5"
+      "rating": "5"
     }
-    
   ],
   "Team": [
     {
       "img": "img/team/nikhil.jpg",
       "name": "Krishnakant Dwivedi",
       "job": "Cinematographer",
-      "linkedin ":"fa fa-linkedin"
+      "linkedin ": "fa fa-linkedin",
+      "text": "Camera Operation & Framing, Lighting Design & Setup, Visual Storytelling, Event & Documentary Shooting",
+      "experience": "3 years",
+      "projects": "NGO Films, Sports Event Coverage, Documentary Projects",
+      "education": "Diploma in Cinematography from AAFT"
     },
     {
       "img": "img/team/02.jpg",
       "name": "Shashikant Pandey",
       "job": "Writer & Music Producer",
-      "linkedin ":"fa fa-linkedin"
+      "linkedin ": "fa fa-linkedin",
+      "text": "Music Production & Composition, Flute Performance, Scriptwriting & Storytelling, Hindi Poetry & Lyricism, Sound Design for Films",
+      "experience": "5 years",
+      "projects": "Documentary Films for NGOs & Private Firms",
+      "education": "Background in Music & Creative Writing"
     },
     {
       "img": "img/team/yogesh.jpg",
       "name": "Yogesh Sharma",
       "job": "Video Editor & VFX / 3D Creator",
-      "linkedin ":"bi bi-linkedin"
+      "linkedin ": "bi bi-linkedin",
+      "text": "Video Editing, VFX, 3D Animation, Motion Graphics, Color Grading",
+      "experience": "2 years",
+      "projects": "Corporate and NGO Films, Social Media Campaigns",
+      "education": "Editing and 3D VFX Course from Arena Animation"
     },
     {
-      "img": "img/team/04.jpg",
+      "img": "img/team/subhamraj.jpg",
       "name": "Shubham Raj",
       "job": "Graphic Designer",
-      "linkedin ":"bi bi-linkedin"
-    },  
-     {
+      "linkedin ": "bi bi-linkedin",
+      "text": "Graphic Design &Sketching & Illustration & Branding & Visual Storytelling & Digital Art & Layout Design & Creative Concept Development",
+      "experience": "5 years",
+      "projects": "Design projects for NGOs, Corporate Firms, and Startups",
+      "education": "Professional Training in Graphic Design"
+    },
+    {
       "img": "img/team/adarsh 2.jpg",
       "name": "Adarsh sharma",
       "job": "Cinematographer",
-      "linkedin ":"bi bi-linkedin"
+      "linkedin ": "bi bi-linkedin",
+      "text": "Adarsh is a cinematographer driven by the art of visual storytelling and emotion through the lens With a strong sense of composition and lighting, he brings depth and atmosphere to every frame.",
+      "experience": "4 years",
+      "projects": "Events, Short Films, Fashion Shows, Industry Shoots",
+      "education": "Bachelor in Cinema"
     }
   ],
   "Contact": {
