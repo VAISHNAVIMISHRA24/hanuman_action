@@ -58,13 +58,13 @@ export const Image = ({ title, largeImage, smallImage, video, description }) => 
                 transform: "translate(-50%, -50%)",
                 background: "rgba(0, 0, 0, 0.6)",
                 borderRadius: "50%",
-                padding: "20px",
+                padding: "15px",
                 transition: "all 0.3s ease",
               }}
             >
               <span
                 style={{
-                  fontSize: "30px",
+                  fontSize: "20px",
                   color: "white",
                 }}
               >

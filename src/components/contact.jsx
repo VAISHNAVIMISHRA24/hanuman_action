@@ -30,7 +30,7 @@ export const Contact = (props) => {
 
   const validateMessage = (value) => {
     if (!value.trim()) return "Message cannot be empty.";
-    if (value.length < 10) return "Message should be at least 10 characters.";
+    if (value.length < 30) return "Message should be at least 30 characters.";
     return "";
   };
  const templateParams={
@@ -206,11 +206,6 @@ export const Contact = (props) => {
               <li>
                 <a href={props.data ? props.data.facebook : "/"}>
                   <i className="fa fa-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href={props.data ? props.data.twitter : "/"}>
-                  <i className="fa fa-twitter"></i>
                 </a>
               </li>
               <li>
