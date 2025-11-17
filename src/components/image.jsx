@@ -46,6 +46,7 @@ export const Image = ({ title, largeImage, smallImage, video, description }) => 
               style={{
                 width: "100%",
                 borderRadius: "20px",
+                height:"250px",
                 transition: "transform 0.5s ease",
               }}
             />
@@ -53,10 +54,10 @@ export const Image = ({ title, largeImage, smallImage, video, description }) => 
               className="play-overlay"
               style={{
                 position: "absolute",
-                top: "50%",
+                top: "45%",
                 left: "50%",
                 transform: "translate(-50%, -50%)",
-                background: "rgba(0, 0, 0, 0.6)",
+                background: "#ff6a00",
                 borderRadius: "50%",
                 padding: "15px",
                 transition: "all 0.3s ease",

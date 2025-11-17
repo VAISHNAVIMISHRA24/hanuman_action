@@ -23,50 +23,57 @@
     {
       "title": " NGO Documentary Trailer",
       "description": "Soil, Livelihood & Women Empowerment",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg",
+      "largeImage": "img/portfolio/ngo.png",
+      "smallImage": "img/portfolio/ngo.png",
       "video": "https://www.youtube.com/embed/v=W7CairPnGpM?rel=0"
     },
     {
       "title": "Cricket Shoot",
       "description": "The Grind Never Stops",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg",
+      "largeImage": "img/portfolio/cricketshoot.png",
+      "smallImage": "img/portfolio/cricketshoot.png",
       "video": "https://www.youtube.com/shorts/kuVNT2r6rkY?rel=0"
     },
     {
       "title": "Product Shoot",
       "description": "Cinematic Brand Film",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg",
+      "largeImage": "img/portfolio/product.png",
+      "smallImage": "img/portfolio/product.png",
       "video": "https://www.youtube.com/embed/nlbez2s5KEU?rel=0"
     },
     {
       "title": "Short Film",
       "description": "Cinematic Bike Chase Scene",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg",
+      "largeImage": "img/portfolio/bike.png",
+      "smallImage": "img/portfolio/bike.png",
       "video": "https://www.youtube.com/shorts/9OlXURaqEcY?rel=0"
     },
     {
       "title": "Reels",
       "description": "The Dot That Defines Beauty",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg",
+      "largeImage": "img/portfolio/reels.png",
+      "smallImage": "img/portfolio/reels.png",
       "video": "https://www.youtube.com/shorts/U8bzeDOYVQI?rel=0"
     },
     {
       "title": "Tiranga",
       "description": "Every Frame Tell a Story",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg",
+      "largeImage": "img/portfolio/triranga.png",
+      "smallImage": "img/portfolio/triranga.png",
       "video": "https://www.youtube.com/embed/_zSnKJcvUNo?rel=0"
     },
     {
       "title": " Artist’s",
       "description": "The Hands That Create Ganesha",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg",
+      "largeImage": "img/portfolio/artist.png",
+      "smallImage": "img/portfolio/artist.png",
+      "video": "https://www.youtube.com/shorts/cH-OOEC8s4s?rel=0"
+    },
+     {
+      "title": " Political",
+      "description": "The Hands That Create Ganesha",
+      "largeImage": "img/portfolio/political.png",
+      "smallImage": "img/portfolio/political.png",
       "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
     }
   ],
@@ -180,7 +187,7 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
+    "address": "Flat no 30/1248 kundan kutir near gaurav provision shankar nagar raipur 492001",
     "phone": "+91 7879410448, 83055 52182",
     "email": "hanumanactionart@gmail.com",
     "instagram": "https://www.instagram.com/hanumanactionart/?igsh=bDNqazVkc3dsNTgx#",
