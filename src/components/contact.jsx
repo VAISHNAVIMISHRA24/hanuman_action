@@ -86,7 +86,7 @@ export const Contact = (props) => {
           setContact(initialState);
         },
         (error) => {
-          console.log(error);
+          console.log(error.text);
           Swal.fire({
             title: "Error!",
             text: "Something went wrong, please try again.",
