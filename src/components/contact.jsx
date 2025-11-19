@@ -86,7 +86,7 @@ export const Contact = (props) => {
           setContact(initialState);
         },
         (error) => {
-          console.log(error.text);
+          console.log(error);
           Swal.fire({
             title: "Error!",
             text: "Something went wrong, please try again.",
@@ -204,7 +204,7 @@ export const Contact = (props) => {
           <div className="social">
             <ul>
               <li>
-                <a href={props.data ? props.data.facebook : "/"}>
+                <a href={props.data ? props.data.instagram : "/"}>
                   <i className="fa fa-instagram"></i>
                 </a>
               </li>

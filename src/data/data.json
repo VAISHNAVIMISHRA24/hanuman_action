@@ -42,7 +42,7 @@
       "video": "https://www.youtube.com/embed/nlbez2s5KEU?rel=0"
     },
     {
-      "title": "Short Film",
+      "title": "Cinematic Bike Chase Scene",
       "description": "Cinematic Bike Chase Scene",
       "largeImage": "img/portfolio/bike.png",
       "smallImage": "img/portfolio/bike.png",
@@ -80,8 +80,13 @@
   "Services": [
     {
       "icon": "fa fa-file-video-o",
-      "name": "Documentaries for NGOs",
+      "name": "Film making and Documentaries",
       "text": "Turning your impact into powerful visual stories"
+    },
+     {
+      "icon": "fa fa-users",
+      "name": " Action & Martial Arts Training",
+      "text": "Promoting discipline, confidence, and fitness among youth"
     },
     {
       "icon": "fa fa-trophy",
@@ -103,11 +108,7 @@
       "name": "Music Production & Folk Arts",
       "text": " Reviving traditions with a modern touch"
     },
-    {
-      "icon": "fa fa-users",
-      "name": " Action & Martial Arts Training",
-      "text": "Promoting discipline, confidence, and fitness among youth"
-    },
+   
     {
       "icon": "fa fa-pie-chart",
       "name": "Cultural & Social Projects",

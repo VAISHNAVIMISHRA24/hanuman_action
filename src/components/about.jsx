@@ -8,7 +8,7 @@ export const About = (props) => {
   }, []);
 
   return (
-    <div id="" className="about-section py-5">
+    <div id="About" className="about-section py-5">
       <div className="container-fluid px-3 px-md-5">
         <div className="row align-items-center">
           {/* Left Image */}

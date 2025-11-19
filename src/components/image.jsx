@@ -57,7 +57,7 @@ export const Image = ({ title, largeImage, smallImage, video, description }) => 
                 top: "45%",
                 left: "50%",
                 transform: "translate(-50%, -50%)",
-                background: "#ff6a00",
+                background: "#d38a3bff",
                 borderRadius: "50%",
                 padding: "15px",
                 transition: "all 0.3s ease",

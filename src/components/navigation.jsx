@@ -25,7 +25,8 @@ export const Navigation = (props) => {
           marginRight: "10px",
         }}
       />
-      <span className="fw-bold text-white fs-4">Hanuman</span>
+      <span className="fw-bold text-white fs-5">Hanuman action art
+</span>
     </a>
 
     {/* Toggler */}
