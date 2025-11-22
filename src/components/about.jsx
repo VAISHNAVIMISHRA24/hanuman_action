@@ -18,7 +18,7 @@ export const About = (props) => {
           >
             <div className="image-wrapper">
               <img
-                src="img/front1.webp"
+                src="img/about.jpg"
                 className="img-fluid w-100 rounded shadow-lg"
                 alt="About Hanuman Action Art"
               />
@@ -32,9 +32,9 @@ export const About = (props) => {
               <p>{props.data ? props.data.paragraph1 : "Loading..."}</p>
               <p>{props.data ? props.data.paragraph2 : "Loading..."}</p>
 
-              <a href="#services" className="btn btn-custom mt-3">
+              {/* <a href="#services" className="btn btn-custom mt-3">
                 Learn More →
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
