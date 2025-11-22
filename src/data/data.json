@@ -71,7 +71,7 @@
     },
      {
       "title": " Political",
-      "description": "The Hands That Create Ganesha",
+      "description": "Impactful visuals for campaigns.",
       "largeImage": "img/portfolio/political.png",
       "smallImage": "img/portfolio/political.png",
       "video": "https://drive.google.com/file/d/10r5T45pDdwGcdPQMeW0SdiPg7sj-12aJ/preview"
@@ -80,14 +80,14 @@
   "Services": [
     {
       "icon": "fa fa-file-video-o",
-      "name": "Film making and Documentaries",
+      "name": "Film and documentries making",
       "text": "Turning your impact into powerful visual stories"
     },
      {
-      "icon": "fa fa-users",
-      "name": " Action & Martial Arts Training",
-      "text": "Promoting discipline, confidence, and fitness among youth"
-    },
+  "icon": "fa fa-pencil-square",
+  "name": "Graphic Design",
+  "text": "Creative visuals that elevate your brand identity."
+},
     {
       "icon": "fa fa-trophy",
       "name": "Sports Event Shoots",
@@ -110,26 +110,31 @@
     },
    
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Cultural & Social Projects",
-      "text": "Bridging creativity with community development"
+      "icon": "fa fa-camera-retro",
+      "name": "Wedding Shoot",
+      "text": "Turning your big day into forever memories."
+    },
+    {
+      "icon": "fa fa-wifi",
+      "name": "Live Streaming",
+      "text": "Your event, streamed to the world in real time."
     }
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
+      "img": "img/testimonials/pradan.jpg",
       "text": "\"Highly impressed with the work done. Services offered are highly professional.\"",
-      "name": "Prdan",
+      "name": "PRADAN",
       "rating": "5"
     },
     {
-      "img": "img/testimonials/02.jpg",
+      "img": "img/testimonials/pradan.jpg",
       "text": "\"Hanuman Art is an excellent agency providing high-quality services in the field of development documentaries. The agency has skilled, qualified, and highly cooperative professionals who genuinely understand the client’s needs and translate them effectively into impactful documentaries. Their prior experience in the development sector enables them to grasp the context quickly and bring authenticity to their work. I am very happy with the services provided by Hanuman Art and wish the team continued success in their future endeavors.\"",
-      "name": "PRADAN Dhamtari team",
+      "name": "PRADAN DHAMTARI TEAM",
       "rating": "5"
     },
     {
-      "img": "img/testimonials/03.jpg",
+      "img": "img/testimonials/pradanteam.jpg",
       "text": "\"We would like to extend our appreciation for your recent performance and contribution. Your team displayed great energy, coordination, and professionalism throughout the event. The audience truly enjoyed the performance, and it added significant value to our program.\"",
       "name": "KABIR NAGAR KHEL SAMITI SOCIETY KABIR NAGAR RAIPUR ",
       "rating": "5"
